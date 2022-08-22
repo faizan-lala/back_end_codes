@@ -1,0 +1,18 @@
+.banner{
+    height: 400px;
+    width: 100%;
+    background-image: url("/images/business.jpg");
+    border: 1px solid;
+    background-position: center;
+    background-size: cover;
+}
+
+.paragraph{
+    text-align: justify;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.nav-link{
+    color: white;
+}

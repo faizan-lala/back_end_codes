@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <%-include('./Partial/boot.ejs');%>
+</head>
+<body>
+    <%-include('./Partial/menu.ejs');%>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 m-auto">
+                <form action="/loginU" method="post">
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="text" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
